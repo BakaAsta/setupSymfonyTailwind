@@ -3,6 +3,7 @@
 namespace App\Entity;
 
 use ApiPlatform\Metadata\ApiResource;
+use ApiPlatform\Metadata\GetCollection;
 use ApiPlatform\Metadata\Post;
 use ApiPlatform\Metadata\Put;
 use App\Repository\JouetRepository;
@@ -12,6 +13,7 @@ use Doctrine\ORM\Mapping as ORM;
 #[ApiResource(
         operations: [
             new Post(),
+            new GetCollection(),
         ],
         paginationEnabled: false,
     )]
