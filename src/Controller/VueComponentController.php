@@ -13,6 +13,7 @@ class VueComponentController extends AbstractController
     {
         return $this->render('vue_component/index.html.twig', [
             'controller_name' => 'VueComponentController',
+            'name' => 'Vue Component',
         ]);
     }
 }

@@ -1,5 +1,7 @@
 <template>
-    <div>Hello {{ name }}!</div>
+    <div>
+        <h1 class="text-red-600">Hello {{ name }}!</h1>
+    </div>
 </template>
 
 <script setup>
